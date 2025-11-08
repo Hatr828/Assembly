@@ -4,6 +4,7 @@
 
 .intel_syntax noprefix
 
+// int c_to_f_asm(int c);
 c_to_f_asm:
     movsxd  rax, edi
     lea rax, [rax + rax * 8]
